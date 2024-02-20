@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logoapp"/>
+    <TextView
+        android:id="@+id/viewname"
+        android:layout_width="3000dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bogoc"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#000001"
+        app:tabTextColor="#FFFFFF"
+        app:tabSelectedTextColor="#0000FF"
+
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_1"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/modifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bonus" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="2dp"></androidx.viewpager2.widget.ViewPager2>
+
+
+</RelativeLayout>

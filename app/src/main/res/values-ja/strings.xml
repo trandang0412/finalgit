@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">次</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="the_annual">In this app you can check the annual</string>
+    <string name="japan">日本</string>
+    <string name="english">英語</string>
+    <string name="select_language">言語を選択する</string>
+    <string name="sign_in">ログイン</string>
+    <string name="add_your_name">あなたの名前を追加</string>
+    <string name="next1"><![CDATA[Next >>]]></string>
+    <string name="need_help">困ったことや困ったことがあれば相談できる！</string>
+    <string name="home">家</string>
+    <string name="bonus">ボーナス</string>
+    <string name="settings">設定</string>
+    <string name="this_function">この機能について</string>
+    <string name="on_this_page_you_can_collect_e_waste_with_us_by_clicking_the_button_below_all_your_collection_activities_will_help_reduce_environmental_pollution">On this page you can collect e-waste with us by clicking the button below. All your collection activities will help reduce environmental pollution</string>
+    <string name="click_here">ここをクリック</string>
+    <string name="home_1">家 </string>
+    <string name="_1_how_many_refrigerators_do_you_change_per_year">1. 冷蔵庫は年間何台買い替えますか？</string>
+    <string name="_2_how_many_televisions_do_you_change_per_year">2. 年間何台のテレビを買い替えますか?</string>
+    <string name="_3_how_many_washing_machines_do_you_change_per_year">3. 洗濯機は年に何回買い替えますか？</string>
+    <string name="_4_how_many_air_conditioners_do_you_change_per_year">4. エアコンは年に何回交換しますか？</string>
+    <string name="_5_how_many_desktop_computers_do_you_change_per_year">5. 年間に何台のデスクトップ コンピュータを交換しますか?</string>
+    <string name="_6_how_many_laptops_do_you_change_per_year">6. 年間何台のラップトップを交換しますか?</string>
+    <string name="_7_how_many_phones_do_you_change_per_year">7. 年間何台の携帯電話を買い替えますか?</string>
+    <string name="the_amount_of_e_waste_you_consume">あなたが消費する電子廃棄物の量。</string>
+    <string name="after_installing_you_need_to_restart_the_application">インストール後、アプリケーションを再起動する必要があります。</string>
+    <string name="wellcome_to_e_waste_app">E-wasteアプリへようこそ</string>
+    <string name="in_this_app_you_can_check_the_annual_amount_of_e_waste_you_consume_also_you_can_bonus_e_waste_us_through_this_app_all_your_activities_on_this_application_will_contribute_to_a_cleaner_greener_environment">このアプリでは、あなたが消費する電子廃棄物の年間量を確認できます。 また、このアプリを通じて e-waste をボーナスにすることもできます。 このアプリケーションでのすべての活動は、よりクリーンで環境に優しい環境に貢献します。</string>
+    <string name="get_start">スタートを切る</string>
+
+</resources>

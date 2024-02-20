@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+
+    tools:context=".fragment2.onboard1">
+    <!--    tìm hiểu về orentation-->
+
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/img_5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wellcome_to_e_waste_app"
+        android:textSize="30dp"
+        android:textColor="#000001"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000001"
+        android:justificationMode="inter_word"
+        android:text="@string/in_this_app_you_can_check_the_annual_amount_of_e_waste_you_consume_also_you_can_bonus_e_waste_us_through_this_app_all_your_activities_on_this_application_will_contribute_to_a_cleaner_greener_environment"/>
+
+</LinearLayout>

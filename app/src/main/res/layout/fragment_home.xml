@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cau1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/_1_how_many_refrigerators_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 pIece" />
+
+                <RadioButton
+                    android:id="@+id/rb1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4 pieces" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_cau2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau1"
+                android:padding="10dp"
+                android:text="@string/_2_how_many_televisions_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4 pieces" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_cau3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau2"
+                android:padding="10dp"
+                android:text="@string/_3_how_many_washing_machines_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 piece" />
+
+                <RadioButton
+                    android:id="@+id/rb3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 pieces" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_cau4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau3"
+                android:padding="10dp"
+                android:text="@string/_4_how_many_air_conditioners_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau4"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 piece" />
+
+                <RadioButton
+                    android:id="@+id/rb4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 pieces" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_cau5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau4"
+                android:padding="10dp"
+                android:text="@string/_5_how_many_desktop_computers_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau5"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb5c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4 pieces" />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/tv_cau6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau5"
+                android:padding="10dp"
+                android:text="@string/_6_how_many_laptops_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau6"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4 pieces" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_cau7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau6"
+                android:padding="10dp"
+                android:text="@string/_7_how_many_phones_do_you_change_per_year"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_cau7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cau7"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4 pieces" />
+
+                <RadioButton
+                    android:id="@+id/rb7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5 pieces" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_view"
+                android:textStyle="bold"
+                android:textColor="#000001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/the_amount_of_e_waste_you_consume"/>
+
+            <Button
+                android:id="@+id/btn_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_cau10"
+                android:layout_gravity="end"
+                android:padding="15dp"
+                android:text="Check the result"
+                android:textColor="#000001"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
